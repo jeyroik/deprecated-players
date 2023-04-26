@@ -1,0 +1,24 @@
+{
+    "title": "",
+    "description": "",
+    "schema": "1.0",
+    "plugins": [],
+    "extensions": [
+        {
+            "class": "df\\components\\extensions\\players\\PlayerContextExtension",
+            "interface": "df\\interfaces\\extensions\\players\\IPlayerContextExtension",
+            "subject": "context",
+            "methods": [
+                "createPlayer"
+            ]
+        },
+        {
+            "class": "df\\components\\extensions\\players\\PlayerContextExtensionGroup",
+            "interface": "df\\interfaces\\extensions\\players\\IPlayerContextExtensionGroup",
+            "subject": "context",
+            "methods": [
+                "createGroup"
+            ]
+        }
+    ]
+}
