@@ -1,0 +1,2 @@
+# deprecated-players
+Deprecated package
